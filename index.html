@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SohbetEvreni</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'dark-primary': '#0D0C1D',
+              'dark-secondary': '#161A30',
+              'dark-tertiary': '#1D244D',
+              'neon-cyan': '#00BFFF',
+              'neon-magenta': '#FF00FF',
+              'neon-lime': '#39FF14',
+              'light-gray': '#B0B3B8',
+              'medium-gray': '#4E5058',
+            },
+            boxShadow: {
+              'neon-cyan': '0 0 5px #00BFFF, 0 0 10px #00BFFF, 0 0 15px #00BFFF',
+              'neon-magenta': '0 0 5px #FF00FF, 0 0 10px #FF00FF, 0 0 15px #FF00FF',
+              'neon-lime': '0 0 5px #39FF14, 0 0 10px #39FF14, 0 0 15px #39FF14',
+            }
+          }
+        }
+      }
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+      body {
+        font-family: 'Roboto', sans-serif;
+      }
+      .font-orbitron {
+        font-family: 'Orbitron', sans-serif;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.1.1",
+    "react-dom/": "https://esm.sh/react-dom@^19.1.1/",
+    "react/": "https://esm.sh/react@^19.1.1/"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-dark-primary text-white">
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>

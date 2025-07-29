@@ -1,0 +1,8 @@
+{
+  "name": "SohbetEvreni",
+  "description": "A futuristic chat platform focused on social connections, featuring a dark mode UI with neon accents. Users can invite friends to servers via special invitation links, engage in voice/video chat, and customize their experience.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
